@@ -20,3 +20,14 @@ Respostas:
 a) Sim.
 b) Por que, a variavel P e um ponteiro, ou seja, guarda um endereço, o que não acontece na atribuição da variavel "p = x;", o que acarreta em outro erro no "printf(“Valor de p = %p", pois a variavel p não guarda um endereço.
 c) Não.
+d) 
+int main(void) {
+int x, *p;
+x = 100;
+p = &x;
+printf(“Valor de p = %p\tValor de *p = %d”, p, *p);
+}
+c) Sim.
+
+
+
